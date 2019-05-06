@@ -1,0 +1,26 @@
+
+.aboutUs .hrs{
+	background-image: url('Images/img3p.jpg'); /*set the image background*/
+	background-size: cover; /* set this to cover, fills out the whole div with the image */
+	background-repeat: no-repeat; /* no-repeat ensures the image doesn't repeat itself within the div */
+	background-position: center center; /* makes it responsive, so when you change the screen size the image always stays center */
+	background-attachment: fixed; /* ensures the image stays in the div when you change the screen size */
+    margin: 0px;
+   
+    
+}
+
+.aboutUs .hrs .hrsText{ 
+	position: relative; /* Position the background text */
+	bottom: 0; /* At the bottom. Use top:0 to append it to the top */
+	background: rgb(0, 0, 0); /* Fallback color */
+	background: rgba(0, 0, 0, 0.7); /* Black background with 0.5 opacity */ /*I changed the opacity so it's easier to read */
+	color: #ffffff; /* Grey text */
+	padding:20px;
+	font-weight: bold; /* made the text bold so it's easier to read */
+    font-family: "Calafornian FB";
+    font-size: 14pt;
+    
+ }
+
+            
